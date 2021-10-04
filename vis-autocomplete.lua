@@ -49,7 +49,7 @@ vis:map(vis.modes.INSERT, "<M-Tab>", function(keys) autocomplete(-1) end)
 --local p = io.popen('find ~/Documents/* -maxdepth 1 -type f')
 --for path in p:lines() do
 --	local l = path:len()
---	i, j = string.find(path, 'Documents/pesquisas/')
+--	i, j = string.find(path, 'Documents/')
 --	--autocomplete_add(string.sub(path, j+1, l-4))
 --	table.insert(auto, string.sub(path, j+1, l-4))
 --end
