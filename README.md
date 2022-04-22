@@ -6,4 +6,4 @@ A collection of scripts to be used with the vis editor.
 - vis-ebackspace.lua: to remove several spaces
 - vis-saveregisters.lua: store the value of registers; load them each new session
 - vis-showdigraphs.lua: format and show a list of key combinations and corresponding symbol from `vis-digraph`
-
+- vis-wordcount.lua: count words in a selection, otherwise in the whole file
